@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:id="@+id/tv_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="#de051a"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+
+        android:id="@+id/tv_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_product_name"
+        android:textColor="#de051a"/>
+    <Button
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#fa7280"
+        android:text="-"
+        android:id="@+id/minus"
+        android:layout_toLeftOf="@+id/tv_product_quantity"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <Button
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="#a68184"
+        android:text="+"
+        android:id="@+id/plus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toLeftOf="@+id/ibtn_remove_product"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/plus"
+        android:id="@+id/tv_product_quantity"
+        android:layout_width="30dp"
+        android:layout_height="40dp" />
+
+    <ImageButton
+        android:id="@+id/ibtn_remove_product"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

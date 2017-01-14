@@ -1,0 +1,13 @@
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:id="@+id/lv_categories"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:numColumns="auto_fit"
+    android:background="#f9f4f4"
+
+    tools:context="com.example.mbmbmb.shopping.Categories"/>
